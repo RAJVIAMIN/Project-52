@@ -1,0 +1,125 @@
+*{background-color: #7166ff;}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: blueviolet;
+    text-shadow: burlywood 3px 3px;
+    background-color: #ffff00;
+}
+
+h2{
+    text-align: center;
+    font-size: 3rem;
+    color: crimson;
+    text-shadow: #ff0000 2px 2px;
+    background-color: bisque;
+}
+
+button{
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: darkblue;
+    border-radius: 20px;
+}
+
+h3{
+    font-family: 'Satisfy', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: bisque;
+}
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: dodgerblue;
+}
+
+.Whitehat{
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.aboutmee{
+    font-size: 2rem;
+    color: gold;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    align-self: flex-start;
+    /* flex-basis: 10rem; */
+    background-color: tomato;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    border: double;
+    margin: 40px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    text-align: center;
+    background-color: pink;
+}
+    .item > a > img{
+        border-radius: 50px;
+    }
+
+.item > h4{
+    margin-bottom: 40px;
+    background-color: #0000ff;
+    color: salmon;
+}
+
+.hamburger{
+    font-size: 2rem;
+    margin-right: 200px;
+    align-self: start;
+    background-color: aqua;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+.item:hover{
+    transform:scale(1.2)
+}
+
+.button{
+    margin-left: 200px;
+    background-color: aqua;
+}
+
+.header, .head{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: aqua;
+    padding: 15px;
+}
+
+body{
+    margin: 0px;
+    background-color: yellow;
+}
